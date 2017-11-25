@@ -2,12 +2,14 @@ import webbrowser
 """
 Module to display movie object, attributes and instances
 """
+
+
 class Movie():
     """
     Class object stores movie related information
     """
     def __init__(self, movie_title, movie_storyline, poster_image,
-                trailer_youtube_url):
+                 trailer_youtube_url):
         """
         Initialize instances of class Movie
 
